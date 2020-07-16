@@ -1,0 +1,5 @@
+Subject: Neighborhood suspicious activities
+
+Body:
+My name is {%fake-name%}. I don’t know if I ever formally introduced myself to you, but I am your {if(%american-spelling%){neighbor}{neighbour}} from down the street{if(%neighbourhood%){ in %%}{}}. I’m glad to finally be in touch with you! I am writing to ask you if you have seen any suspicious activity. I know there have been some issues of security breaches around town of people breaking into {%break-into%} in the past{%incident-event%}, and I just wanted to make sure everyone stays safe in {if(%neighbourhood%) {%%}{ {if(%american-spelling%){our neighborhood}{our neighbourhood}}}}. If you’re interested, I made a blog with tips on how to keep your home and family safe that you can visit at <link>. Please let me know if you have any questions or want to get together some time; I love spending time with my fellow neighbors.
+

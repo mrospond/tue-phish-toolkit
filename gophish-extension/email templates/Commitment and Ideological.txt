@@ -1,0 +1,4 @@
+Subject: {%org-name%} - {%abuse-type%}
+
+Body:
+Would you like to put an end to {%abuse-type%}? {%statistics%} in {if(%country%){%%}{the US}}. That is why we started our non-profit organization, {%org-name%}, to lobby for additional support for {%abuse-claim%}. Help us end {%abuse-sbj%}. Last year we were able to collect just over {%sig-number%} signatures, and this year we look forward to collecting more. Make your mark by signing the petition to {%petition%}. Please click the link below to sign digitally! <link>

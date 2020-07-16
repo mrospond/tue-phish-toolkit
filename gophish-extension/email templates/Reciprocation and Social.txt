@@ -1,0 +1,4 @@
+Subject: Congratulation!! You won {%award%} dollars
+
+Body:
+Congratulations, you have won {%award%} dollars towards your next purchase of {%obj-bought%}. This money has been donated by {%donated-by%}, a non profit organization founded to promote the purchase of {%org-claim%}. These {%award%} will be applicable in {%award-application%}. You will receive it in the form a gift card that will be sent to {if(%address%){%%}{%email%}}. In the meantime, please click the link below to vote for {%donated-by%} as the top 10 non-profit of the year in {%region%}! <link>
