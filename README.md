@@ -97,8 +97,8 @@ $ bash spoofing_script.sh
 Additional information
 ----------------------
 - https://docs.getgophish.com/user-guide/installation
-- https://golang.org/doc/install
 - https://docs.getgophish.com/user-guide/getting-started
+- https://golang.org/doc/install
 - https://github.com/elceef/dnstwist
 
 
