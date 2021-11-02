@@ -92,7 +92,7 @@ Install Python3 dependencies:
 $ sudo apt install python3-dnspython python3-tldextract python3-geoip python3-whois python3-requests python3-ssdeep python3-pip
 ```
 
-Install dnstwist:
+Install dnstwist (requires python version at least 3.7):
 
 ```
 $ git clone https://github.com/elceef/dnstwist.git
