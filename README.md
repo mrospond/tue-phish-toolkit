@@ -11,11 +11,13 @@ The toolkit extends [Gophish](https://github.com/gophish/gophish) (v. 0.9.0) to 
 
 ### Install
 
-1. Download and extract the archive containing the binary:
+1. Download the archive containing the binary:
 
 ```
-https://gitlab.com/Pirocca/gophish-extension-x64.zip
+https://gitlab.tue.nl/shared/phish-toolkit/-/raw/master/gophish-extension/gophish-extension-x64.zip
 ```
+
+Then extract this zip file to $GOPHISH_PATH folder.
 
 Create a new SSL certificate and Private Keys (needed for HTTPS communications):
 
@@ -39,7 +41,13 @@ Restore the original database (if needed) by deleting $GOPHISH_PATH/gophish.db
 Download repository:
 
 ```
-$ git clone https://gitlab.com/Pirocca/phish-toolkit.git
+$ git clone https://gitlab.tue.nl/shared/phish-toolkit.git
+```
+
+or via SSH:
+
+```
+$ git clone git@gitlab.tue.nl:shared/phish-toolkit.git
 ```
 
 Download the Go archive based on the OS type (needed to compile source files):
@@ -63,7 +71,7 @@ export PATH=$PATH:/usr/local/go/bin
 Build the Gophish extension:
 
 ```
-$ cd $GOPHISH_PATH
+$ cd gophish-extension/src
 $ go build
 ```
 
@@ -103,10 +111,10 @@ $ pip3 install .
 Download repository from Git:
 
 ```
-$ git clone https://gitlab.com/Pirocca/phish-toolkit.git
+$ git clone https://gitlab.tue.nl/shared/phish-toolkit.git
 ```
 
-Go to $SPOOF_PATH and execute:
+Go to spoofing-script folder and execute:
 
 ```
 $ bash spoofing_script.sh
@@ -119,17 +127,21 @@ $ bash spoofing_script.sh
 - https://golang.org/doc/install
 - https://github.com/elceef/dnstwist
 
-### License
+## Contributors
+
+This tool was developed by Simone Pirocca.
+
+## License
 
 ```
-A Toolkit for Tailored Phishing
+Phish Toolkit, Copyright (c) 2020, Eindhoven University of Technology
+Released under the MIT license (MIT)
 
-The MIT License (MIT)
-
-Copyright (c) 2020
+Phish Toolkit is an extension of Gophish - Open-Source Phishing Framework Copyright (c) 2013 - 2020 Jordan Wright
+Released under the MIT license (MIT)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
+of this software ("Gophish Community Edition") and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
